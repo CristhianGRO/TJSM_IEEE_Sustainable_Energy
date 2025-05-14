@@ -20,12 +20,14 @@ This material aims to enable other researchers on the subject to use the model a
 ## Folder: _Results_
 This folder contains the data from the distribution system model used for the simulations.
 
-The files present in this folder are:
+## Subfolder: _Sensitivity Matrix_
 
-- `Dados_Ramo.csv`: dados de conexão entre os barramentos e dados de resistência e reatância das linhas; 
-- `Dados_Barra.csv`: dados de tipo, carga nominal ativa e reativa e limites de tensão para cada uma das barras;  
-- `Dados_Curva_de_Carga_P.csv`: perfil de carga de potência ativa normalizada para cada um dos barramentos;
-- `Dados_Curva_de_Carga_Q.csv`: perfil de carga de potência reativa para cada um dos barramentos;
+This subfolder contains the voltage sensitivity matrix for the IEEE 4-node and 37-node feeder, considering all the load models analyzed in the paper.
+
+- `active_sensitivity_4Bus_Pconst.csv`: Voltage sensitivity matrix due to active power injection for the IEEE 4-node feeder, considering loads as constant power model; 
+- `reactive_sensitivity_4Bus_Pconst.csv`: Voltage sensitivity matrix due to reactive power injection for the IEEE 4-node feeder, considering loads as constant power model; 
+- `active_sensitivity_37Bus_Pconst.csv`: Voltage sensitivity matrix due to active power injection for the IEEE 37-node feeder, considering loads as constant power model; 
+- `reactive_sensitivity_37Bus_Pconst.csv`: Voltage sensitivity matrix due to reactive power injection for the IEEE 37-node feeder, considering loads as constant power model; 
 
 
 
@@ -49,8 +51,8 @@ Questions or suggestions? Get in touch with us:
 # 💬 Cite this repository
 
 ```bibtex
-@article{Cristhian_TJSM_2025,
-    title    = {Data repository for journal paper "Three-Phase Jacobian-Based Voltage Sensitivity Method for Hosting Capacity Analysis", submitted for IEEE Transactions on Sustainable Energy.},
+@misc{Cristhian_TJSM_2025,
+    title    = {Three-Phase Jacobian-Based Voltage Sensitivity Method for Hosting Capacity Analysis, submitted for IEEE Transactions on Sustainable Energy - Repository.},
     year     = {2025},
     url      = {https://github.com/CristhianGRO/TJSM_IEEE_Sustainable_Energy},
     author   = {Cristhian Gabriel da R. de Oliveira, Wandry R. Faria, Benvindo R. Pereira Jr. and João B. A. London Junior},
