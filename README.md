@@ -1,5 +1,5 @@
 <div align="center">
-    <img src=".github/sensitivity_4Bus.svg" style="width: 20vw">
+    <img src="sensitivity_4Bus.svg" style="width: 20vw">
     
     Data repository for journal paper "Three-Phase Jacobian-Based Voltage Sensitivity 
     Method for Hosting Capacity Analysis", submitted for IEEE Transactions on Sustainable Energy.
