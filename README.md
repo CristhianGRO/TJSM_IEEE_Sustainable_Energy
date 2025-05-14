@@ -20,7 +20,7 @@ This material aims to enable other researchers on the subject to use the model a
 ## Folder: _Results_
 This folder contains the data from the distribution system model used for the simulations.
 
-### Subfolder: _Sensitivity Matrix_
+### - Subfolder: _Sensitivity Matrix_
 
 This subfolder contains the voltage sensitivity matrix for the IEEE 4-node and 37-node feeder, considering all the load models analyzed in the paper.
 
@@ -29,11 +29,11 @@ This subfolder contains the voltage sensitivity matrix for the IEEE 4-node and 3
 - `active_sensitivity_37Bus_Pconst.csv`: Voltage sensitivity matrix due to active power injection for the IEEE 37-node feeder, considering loads as constant power model; 
 - `reactive_sensitivity_37Bus_Pconst.csv`: Voltage sensitivity matrix due to reactive power injection for the IEEE 37-node feeder, considering loads as constant power model; 
 
-### Subfolder: _Voltage Estimation Error_
+### - Subfolder: _Voltage Estimation Error_
 
 This subfolder contains the voltage estimation results for the IEEE 37-node feeder. Each file represents the data used to draw each of the paper's graphs.
 
-### Subfolder: _Maximum Allowable Injection Estimation_
+### - Subfolder: _Maximum Allowable Injection Estimation_
 
 This subfolder contains the Maximum Allowable Injection estimation results for the IEEE 37-node feeder. Each file represents the data used to draw each of the paper's graphs.
 
