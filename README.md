@@ -20,6 +20,12 @@ This material aims to enable other researchers on the subject to use the model a
 ## Folder: _Results_
 This folder contains the data from the distribution system model used for the simulations.
 
+### - Subfolder: _Computational Cost_
+This subfolder contains the execution time for voltage estimation considering the proposed TJSM method and traditional power flow analysis, for the IEEE 4-node and 37-node feeder, for 1000 executions.
+
+- `execution_time_4Bus.csv`: Execution time for the IEEE 4-node feeder; 
+- `execution_time_37Bus.csv`: Execution time for the IEEE 37-node feeder; 
+
 ### - Subfolder: _Sensitivity Matrix_
 
 This subfolder contains the voltage sensitivity matrix for the IEEE 4-node and 37-node feeder, considering all the load models analyzed in the paper.
