@@ -22,44 +22,7 @@ This folder contains the data from the distribution system model used for the si
 
 Please, consider the adopted bus IDs, that relates with the IEEE 37-node reference as it follows:
 
-Adopted Id | IEEE ID 
-        1  | 701 
-        2  | 702 
-        3  | 703 
-        4  | 704 
-        5  | 705 
-        6  | 706 
-        7  | 707 
-        8  | 708 
-        9  | 709 
-        10 | 710
-        11 | 711
-        12 | 712
-        13 | 713
-        14 | 714
-        15 | 718
-        16 | 720
-        17 | 722
-        18 | 724
-        19 | 725
-        20 | 727
-        21 | 728
-        22 | 729
-        23 | 730
-        24 | 731
-        25 | 732
-        26 | 733
-        27 | 734
-        28 | 735
-        29 | 736
-        30 | 737
-        31 | 738
-        32 | 740
-        33 | 741
-        34 | 742
-        35 | 744
-        36 | 775
-        37 | 799
+(Adopted Id/IEEEID): 1/701, 2/702, 3/703, 4/704, 5/705, 6/706, 7/707, 8/708, 9/709, 10/710, 11/711, 12/712, 13/713, 14/714, 15/718, 16/720, 17/722, 18/724, 19/725, 20/727, 21/728, 22/729, 23/730, 24/731, 25/732, 26/733, 27/734, 28/735, 29/736, 30/737, 31/738, 32/740, 33/741, 34/742, 35/744, 36/775, 37/799
         
 ### - Subfolder: _Computational Cost_
 This subfolder contains the execution time for voltage estimation considering the proposed TJSM method and traditional power flow analysis, for the IEEE 4-node and 37-node feeder, for 1000 executions.
