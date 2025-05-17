@@ -51,13 +51,15 @@ For Figures 4, 5, 6 and 7, considering penetration scenarios Low (0), Medium (1)
 
 For Figure 8, considering the load models IDs 0 (Constant Impedance), 1 (Constant Current) and 2 (Constant Power):
 
-- `Fig_8.csv`: Data used to plot both Figures 4 and 5, related to the estimation error considering three penetration levels and unity power factor.
+- `Fig_8.csv`: Data used to plot Figure 8, related to the estimation error due to different load models.
 
+For Figure 9, considering 0 if a voltage violation is not identified by both power flow and sensitivity methods, and 1 if identified.
 
+- `Fig_9.csv`: Data used to plot Figure 9 relate to the estimation of the percentage of buses that different penetration levels lead to voltage violations.
 
+For Figure 10:
 
-
-
+- `Fig_10.csv`: Data used to plot Figure 10 relate to the estimation MAE for all combinations of double power injection in high sensitivity buses, for the IEEE 37 bus system.
 
 ### - Subfolder: _Maximum Allowable Injection Estimation_
 
