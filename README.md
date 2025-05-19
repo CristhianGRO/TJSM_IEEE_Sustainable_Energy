@@ -65,6 +65,14 @@ For Figure 10:
 
 This subfolder contains the Maximum Allowable Injection estimation results for the IEEE 37-node feeder. Each file represents the data used to draw each of the paper's graphs.
 
+For Figures 12, 13, 14 and 15:
+
+- `Fig_12.csv`: Data used to plot Figure 12 relate to the MAI estimation for single-phase injections, for the IEEE 37 bus system.
+- `Fig_13.csv`: Data used to plot Figure 13 relate to the MAI estimation for two-phase injections, considering balanced injection, for the IEEE 37 bus system.
+- `Fig_14.csv`: Data used to plot Figure 14 relate to the MAI estimation for two-phase injections, considering load factor participation, for the IEEE 37 bus system.
+- `Fig_15_balanced.csv`: Data used to plot Figure 15 relate to the MAI estimation for three-phase injections, considering balanced injection, for the IEEE 37 bus system.
+- `Fig_15_load_participation_factor.csv`: Data used to plot Figure 15 relate to the MAI estimation for three-phase injections, considering balanced injection, for the IEEE 37 bus system.
+  
 <br><br>
 
 # 💾 Download
